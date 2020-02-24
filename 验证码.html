@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>验证码练习</title>
+    <link rel="stylesheet" href="./css/验证码.css">
+    <link rel="stylesheet" href="./css/verify.css">
+    <script src="./js/verify.js"></script>
+    <script src="./js/jquery-3.3.1.min.js"></script>
+    <script>
+        $(function(){
+            $("#mon").code_verfiy({
+                type:2,
+                width:"40px",
+                height:"20px",
+                codelength:4,
+                btnId:"mm",
+             ready:function(){
+
+             },
+             success:function(){
+                 alert("匹配成功!");
+             }   
+            })
+        })
+    </script>
+</head>
+<body>
+    <div id="codeverfiy">
+        <input type="text" placeholder="请输入账号">
+        <input type="password" placeholder="请输入密码">
+        <input  class="verfiy">
+        <div class="mon"></div>
+       <button id="mm">提交</button>
+    </div>
+</body>
+</html>

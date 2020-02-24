@@ -1,0 +1,31 @@
+#codeverfiy{
+    margin: 0 auto;
+    width: 400px;
+    height: 400px;
+    background-color: aqua;
+    padding: 20px;
+}
+input{
+    width: 80%;
+    height: 40px;
+    margin: 25px 30px;
+}
+.mon{
+    width: 40%;
+    height: 40px;
+    background-color: rebeccapurple;
+    margin-left: 31px;
+}
+button{
+    margin-left: 160px;
+    margin-top: 20px;
+    width: 80px;
+    height: 40px;
+    font-size: 30px;
+    line-height: 30px;
+    background-color: #666666;
+    text-align: center;
+    color: #fff;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border:3px solid red;
+}
